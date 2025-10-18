@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          uri: 
+          uri: https://github.com/elizkurtulus/smart-order.git
           default-label: master
           search-paths: 
             - configurations/
