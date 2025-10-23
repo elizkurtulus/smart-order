@@ -1,4 +1,4 @@
-package com.turkcell.product_service.controller;
+package com.turkcell.product_service.interfaces.web;
 
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
