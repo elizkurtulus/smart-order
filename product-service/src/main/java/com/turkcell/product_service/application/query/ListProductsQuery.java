@@ -1,5 +1,5 @@
 package com.turkcell.product_service.application.query;
 
-public class ListProductsQuery {
-
-}
+public record ListProductsQuery (
+    
+) {}

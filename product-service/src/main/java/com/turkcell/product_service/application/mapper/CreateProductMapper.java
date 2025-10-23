@@ -10,12 +10,12 @@ import com.turkcell.product_service.domain.valueobjects.Price;
 import com.turkcell.product_service.domain.valueobjects.Stock;
 
 @Component
-public class CreatedProductMapper {
+public class CreateProductMapper {
     public Product toDomain(CreateProductCommand command) {
         return Product.create(
             command.name(), 
             command.description(), 
-            new Price(command.amount(), Currency.fromCode(command.currencyName())),
+            new Price(command.amount(), Currency.fromCode(command.code())),
             new Stock(command.quantity())
         );
     }

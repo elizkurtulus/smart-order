@@ -2,6 +2,7 @@ package com.turkcell.product_service.domain.valueobjects;
 
 import java.math.BigDecimal;
 import java.util.Objects;
+import com.turkcell.product_service.domain.valueobjects.Currency;
 
 /**
  * Price Value Object - DDD'de değer nesnesi
