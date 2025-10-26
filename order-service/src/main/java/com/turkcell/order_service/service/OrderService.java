@@ -37,7 +37,7 @@ public class OrderService {
     }
     
     public CreatedOrderResponse createOrder(@Valid CreateOrderRequest request) {
-        Order order = orderMapper.toEntity(request);
+        Order order = orderMapper.toOrderEntity(request);
         order.setOrderDate(new Date());
         order = orderRepository.save(order);
         return orderMapper.toResponse(order);

@@ -5,7 +5,7 @@ import java.util.UUID;
 
 public class CreatedOrderResponse {
     private UUID id;
-    private String orderName;
+    private String name;
     private Date orderDate;
     private String productId;
     private String customerId;
@@ -14,9 +14,9 @@ public class CreatedOrderResponse {
     public CreatedOrderResponse() {
     }
 
-    public CreatedOrderResponse(UUID id, String orderName, Date orderDate, String productId, String customerId) {
+    public CreatedOrderResponse(UUID id, String name, Date orderDate, String productId, String customerId) {
         this.id = id;
-        this.orderName = orderName;
+        this.name = name;
         this.orderDate = orderDate;
         this.productId = productId;
         this.customerId = customerId;
@@ -31,12 +31,12 @@ public class CreatedOrderResponse {
         this.id = id;
     }
 
-    public String getOrderName() {
-        return orderName;
+    public String getName() {
+        return name;
     }
 
-    public void setOrderName(String orderName) {
-        this.orderName = orderName;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public Date getOrderDate() {
