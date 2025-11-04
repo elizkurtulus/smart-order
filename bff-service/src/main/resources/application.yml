@@ -11,7 +11,7 @@ spring:
                 registration:
                     keycloak:
                         client-id: bff-service
-                        client-secret: rhEfPJy3V7dYrtorWhvWNdv84c2XbhVb
+                        client-secret: client-secret
                         redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
                         authorization-grant-type: authorization_code
                         scope:
